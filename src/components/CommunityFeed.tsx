@@ -65,7 +65,7 @@ const CommunityFeed = () => {
             <CardHeader className="pb-3">
               <div className="flex items-center justify-between">
                 <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 bg-gradient-to-br from-emerald-400 to-teal-500 rounded-full flex items-center justify-center">
+                  <div className="w-8 h-8 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center">
                     <User className="w-4 h-4 text-white" />
                   </div>
                   <div>
@@ -79,7 +79,7 @@ const CommunityFeed = () => {
               </div>
             </CardHeader>
             <CardContent className="space-y-4">
-              <div className="bg-gradient-to-r from-emerald-50 to-teal-50 rounded-lg p-4">
+              <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-lg p-4">
                 <blockquote className="text-gray-800 font-medium leading-relaxed text-center">
                   "{post.text}"
                 </blockquote>

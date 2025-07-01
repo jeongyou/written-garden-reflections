@@ -15,14 +15,14 @@ const TodaysSentence = () => {
   return (
     <div className="space-y-6">
       {/* Today's Featured Sentence */}
-      <Card className="bg-gradient-to-br from-emerald-100 to-teal-100 border-emerald-200 shadow-lg">
+      <Card className="bg-gradient-to-br from-amber-100 to-orange-100 border-amber-200 shadow-lg">
         <CardHeader className="text-center pb-4">
           <div className="flex items-center justify-center space-x-2 mb-2">
-            <Star className="w-5 h-5 text-emerald-500" />
-            <CardTitle className="text-xl text-emerald-800">오늘의 문장</CardTitle>
-            <Star className="w-5 h-5 text-emerald-500" />
+            <Star className="w-5 h-5 text-amber-500" />
+            <CardTitle className="text-xl text-amber-800">오늘의 문장</CardTitle>
+            <Star className="w-5 h-5 text-amber-500" />
           </div>
-          <Badge variant="secondary" className="bg-emerald-200 text-emerald-800 mx-auto">
+          <Badge variant="secondary" className="bg-amber-200 text-amber-800 mx-auto">
             <Calendar className="w-3 h-3 mr-1" />
             {todaySentence.date}
           </Badge>
