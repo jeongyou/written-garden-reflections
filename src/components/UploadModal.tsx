@@ -83,7 +83,7 @@ const UploadModal = ({ isOpen, onClose }: UploadModalProps) => {
               <Button 
                 onClick={() => setStep(2)}
                 disabled={!sentence.trim()}
-                className="bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600"
+                className="bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-600 hover:to-teal-600"
               >
                 다음 단계
               </Button>
@@ -93,7 +93,7 @@ const UploadModal = ({ isOpen, onClose }: UploadModalProps) => {
 
         {step === 2 && (
           <div className="space-y-4">
-            <Card className="bg-amber-50 border-amber-200">
+            <Card className="bg-emerald-50 border-emerald-200">
               <CardContent className="p-4">
                 <blockquote className="text-center font-medium text-gray-800 italic">
                   "{sentence}"
@@ -110,7 +110,7 @@ const UploadModal = ({ isOpen, onClose }: UploadModalProps) => {
               <Label>필사 사진 업로드</Label>
               
               {!image ? (
-                <div className="border-2 border-dashed border-gray-300 rounded-lg p-8 text-center hover:border-amber-400 transition-colors">
+                <div className="border-2 border-dashed border-gray-300 rounded-lg p-8 text-center hover:border-emerald-400 transition-colors">
                   <input
                     type="file"
                     accept="image/*"

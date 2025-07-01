@@ -51,17 +51,17 @@ const VotingBox = () => {
       </div>
 
       {/* Voting Status */}
-      <Card className="bg-gradient-to-r from-blue-50 to-indigo-50 border-blue-200">
+      <Card className="bg-gradient-to-r from-emerald-50 to-teal-50 border-emerald-200">
         <CardHeader className="text-center">
           <div className="flex items-center justify-center space-x-2 mb-2">
-            <Clock className="w-5 h-5 text-blue-600" />
-            <CardTitle className="text-lg text-blue-800">투표 현황</CardTitle>
+            <Clock className="w-5 h-5 text-emerald-600" />
+            <CardTitle className="text-lg text-emerald-800">투표 현황</CardTitle>
           </div>
         </CardHeader>
         <CardContent className="text-center space-y-2">
-          <div className="text-2xl font-bold text-blue-800">{totalVotes}표</div>
-          <p className="text-sm text-blue-600">현재까지 참여한 투표 수</p>
-          <Badge variant="outline" className="bg-blue-100 text-blue-700 border-blue-300">
+          <div className="text-2xl font-bold text-emerald-800">{totalVotes}표</div>
+          <p className="text-sm text-emerald-600">현재까지 참여한 투표 수</p>
+          <Badge variant="outline" className="bg-emerald-100 text-emerald-700 border-emerald-300">
             <Trophy className="w-3 h-3 mr-1" />
             자정에 결과 발표
           </Badge>
@@ -75,7 +75,7 @@ const VotingBox = () => {
             key={option.id} 
             className={`cursor-pointer transition-all duration-300 ${
               selectedSentence === option.id 
-                ? 'ring-2 ring-amber-400 bg-amber-50/50' 
+                ? 'ring-2 ring-emerald-400 bg-emerald-50/50' 
                 : 'bg-white/80 hover:bg-white/90'
             } ${hasVoted ? 'cursor-default' : 'hover:shadow-lg'}`}
             onClick={() => handleVote(option.id)}
@@ -98,7 +98,7 @@ const VotingBox = () => {
                   <div className="flex items-center justify-between text-sm">
                     <span className="font-medium">투표율: {option.percentage}%</span>
                     {selectedSentence === option.id && (
-                      <Badge className="bg-amber-500 text-white">
+                      <Badge className="bg-emerald-500 text-white">
                         <Star className="w-3 h-3 mr-1" />
                         내 선택
                       </Badge>
@@ -120,7 +120,7 @@ const VotingBox = () => {
           </p>
           <Button 
             disabled={!selectedSentence}
-            className="bg-gradient-to-r from-blue-500 to-indigo-500 hover:from-blue-600 hover:to-indigo-600 text-white"
+            className="bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-600 hover:to-teal-600 text-white"
           >
             <Vote className="w-4 h-4 mr-2" />
             투표하기

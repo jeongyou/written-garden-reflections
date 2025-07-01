@@ -46,7 +46,7 @@ const MyWritings = () => {
           <Card key={writing.id} className="bg-white/80 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300">
             <CardHeader className="pb-3">
               <div className="flex items-start justify-between">
-                <Badge variant="outline" className="bg-amber-100 text-amber-700 border-amber-300">
+                <Badge variant="outline" className="bg-emerald-100 text-emerald-700 border-emerald-300">
                   <Calendar className="w-3 h-3 mr-1" />
                   {writing.date}
                 </Badge>
@@ -63,7 +63,7 @@ const MyWritings = () => {
               </div>
             </CardHeader>
             <CardContent className="space-y-4">
-              <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-lg p-4">
+              <div className="bg-gradient-to-r from-emerald-50 to-teal-50 rounded-lg p-4">
                 <blockquote className="text-gray-800 font-medium leading-relaxed text-center">
                   "{writing.text}"
                 </blockquote>
