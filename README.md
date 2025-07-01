@@ -1,73 +1,23 @@
-# Welcome to your Lovable project
+### 페르소나  
+감성 기록러 - 정유경 (24세)  
+직업: 디자인 학과 대학생
+라이프스타일: 아침에 감성 일기 쓰고, 글귀 필사하는 습관이 있음. SNS에 직접 쓴 글씨를 자주 올림  
+목표: 나만의 생각이나 감정을 정리하고 공유하는 루틴 만들기  
+니즈: 예쁜 문장을 만나고 필사로 나만의 감성 피드를 채우기  
+페인 포인트: 필사할 문장을 찾기 어렵고, 혼자만 하기엔 동기 부여가 떨어짐  
 
-## Project info
+--- 
+### 사용자 시나리오 및 스토리  
+아침 루틴으로 글귀를 필사하고 공유하기  
+상황: 정유경이 아침에 커피를 마시며 오늘의 추천 문장을 필사하고 싶어함  
 
-**URL**: https://lovable.dev/projects/eeff04f1-80bc-48aa-8d24-d5097ef139df
+사용자 시나리오:  
+1. '필사의 정원' 웹사이트 접속  
+2. 홈 화면에서 오늘의 추천 문장을 확인  
+3. 노트에 손글씨로 문장을 필사  
+4. 필사한 글을 사진으로 찍어 사이트에 업로드  
+5. 다른 사람의 필사도 구경하며 마음에 드는 문장에 투표  
 
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/eeff04f1-80bc-48aa-8d24-d5097ef139df) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/eeff04f1-80bc-48aa-8d24-d5097ef139df) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+사용자 스토리:  
+"감성적인 글귀를 필사하고 공유하면서 하루를 시작하면, 나만의 루틴이 생기고 사람들이 올린 다양한 문장을 보는 재미도 있어요."
+"매일 필사를 하면 마음이 정리돼요. 추천 문장도 받을 수 있고, 나만의 아카이브처럼 모이는 느낌이 들어서 성취감도 큽니다."
